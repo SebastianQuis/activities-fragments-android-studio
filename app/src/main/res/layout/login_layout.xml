@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Login"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/material_on_background_emphasis_medium"
+        android:text="Hola, un gusto verte de nuevo"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/colorthree"
+        android:text="Correo electrónico"></TextView>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/colorthree"
+        android:text="Contraseña"></TextView>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:text="Iniciar sesión"
+        android:background="@color/colorone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/textViewRegistrate"
+        android:textColor="@color/colorone"
+        android:gravity="end"
+        android:text="Regístrate"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonFragment1"
+            android:text="fragment 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+        <Button
+            android:id="@+id/buttonFragment2"
+            android:text="fragment 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
