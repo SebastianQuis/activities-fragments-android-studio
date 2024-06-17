@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp"
     android:orientation="vertical">
 
     <TextView
+        android:padding="15dp"
         android:background="@color/colorone"
         android:textColor="@color/white"
         android:id="@+id/textViewName"
@@ -13,12 +13,9 @@
         android:text="Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TextView>
-    
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="5dp"></Space>
-    
+
     <TextView
+        android:padding="10dp"
         android:id="@+id/textViewPhone"
         android:textSize="25dp"
         android:text="Phone"
